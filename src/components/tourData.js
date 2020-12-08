@@ -5,7 +5,8 @@ export const tourData = [
     img: "./img/newyork.jpeg",
     name: "new york bridge tour",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "Take a tour around New York City and see the famous bridges!",
+    price: "50€"
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const tourData = [
     img: "./img/paris.jpeg",
     name: "paris lights tour",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "What could be more beautiful than the light tour in the city of love?",
+    price: "85€"
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ export const tourData = [
     img: "./img/london.jpeg",
     name: "london royal palace tour",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "See the fantastic royal palace in the heart of London!",
+    price: "100€"
   },
   {
     id: 4,
@@ -29,6 +32,7 @@ export const tourData = [
     img: "./img/tokyo.jpeg",
     name: "tokyo sushi tour",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "Get your appetites ready for some delicious sushi!",
+      price: "110€"
   }
 ];

@@ -22,6 +22,10 @@ function NavBar() {
                         Tours
                     </a>
                 </li>
+                <li>
+                <i className="fas fa-shopping-cart"></i>
+
+                </li>
             </ul>
         </nav>
     )

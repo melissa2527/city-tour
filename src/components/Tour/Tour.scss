@@ -4,6 +4,7 @@
     background: $mainGray;
     border-radius: 0.8rem;
     margin: 1rem 0;
+    box-shadow: 5px 6px #888888;
 
     img {
         width: 100%;
@@ -56,4 +57,16 @@
             cursor: pointer;
         }
     }
+}
+#price {
+    font-weight: lighter;
+    padding-top: .3rem;
+}
+
+.background-green {
+    background-color: lightgreen;
+    opacity: .8;
+}
+.background-transparent {
+    background-color: white;
 }

@@ -1,15 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './Tour.scss';
-import TourInfo from './TourInfo';
+import Favorite from './Favorite';
+import Info from './Info';
+import Price from './Price';
 
 function Tour({tour}) {
-    // const [showInfo, setShowInfo] = useState(false);
-
-    // handleClick = (e) => {
-    //     e.target.value = setShowInfo(true)
-    // }
-
-   
+  
     return (
         <article className="tour">
             <div className="tour-img">
@@ -21,16 +17,10 @@ function Tour({tour}) {
             <div className="tour-info">
                     <h3>{tour.city}</h3>
                     <h4>{tour.name}</h4>
-                    <TourInfo tour={tour} />
-                    {/* <h5>info 
-                        <span onClick={() => !showInfo}>
-                            <i className="fas fa-caret-square-down"/>
-                        </span>
-                    </h5> */}
-                    {/* {(showInfo === true) ?
-                        <p>{tour.info}</p>
-                     : null } */}
+                    <Info info={tour.info}/>
+                    <Price price={tour.price} /> 
             </div>
+            <Favorite />
         </article>
     )
 }
